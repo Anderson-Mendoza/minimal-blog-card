@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+:root {
+  --body-color: #ffffff;
+  --main-card-color: #fafaf9;
+  --title-color: #20293a;
+  --text-color: #6c727f;
+  --fake-button-color: #d9c3f7;
+  --fake-button-text-color: #883ae1;
+  --shadow-card: #e5eaf0;
+}
+
+body {
+  background: var(--body-color);
+  font-family: "Sora";
+}
+
+.pollitos-img {
+  width: 350px;
+  height: 200px;
+  border-radius: 12px;
+}
+
+.contain {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-contain {
+  width: 350px;
+  height: 410px;
+  padding: 16px;
+  border-radius: 15px;
+  background: var(--main-card-color);
+  box-shadow: 30px 30px 100px 0px rgba(17, 23, 41, 0.3);
+}
+
+.fake-button {
+  margin-top: 14px;
+  padding: 2px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background: var(--fake-button-color);
+  border-radius: 15px;
+  border: none;
+  color: var(--fake-button-text-color);
+  font-weight: bold;
+}
+
+.title-card {
+  color: var(--title-color);
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.paragraph {
+  font-size: 14px;
+  color: var(--text-color);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.autor {
+  color: var(--text-color);
+  font-size: 13px;
+  margin-top: 18px;
+}
